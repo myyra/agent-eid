@@ -1,0 +1,1992 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "app.display_name" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "AgentEID"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Agenttitunnistus"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Agentidentifiering"
+          }
+        }
+      }
+    },
+    "card.authentication_key.label" : {
+      "comment" : "Label for the authentication key used for signing and verifying data.",
+      "localizations" : {
+        "fi" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Tunnistautuminen kansalaisvarmenteella"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Identifiering med medborgarcertifikat"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Citizen Certificate authentication"
+          }
+        }
+      },
+      "extractionState" : "manual"
+    },
+    "card.certificate.default_label" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Certificate"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Varmenne"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Certifikat"
+          }
+        }
+      },
+      "extractionState" : "manual"
+    },
+    "card.default_label" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Finnish ID card"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Suomalainen henkilökortti"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Finländskt identitetskort"
+          }
+        }
+      },
+      "extractionState" : "manual"
+    },
+    "common.actions.cancel.title" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cancel"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Peruuta"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Avbryt"
+          }
+        }
+      },
+      "extractionState" : "manual"
+    },
+    "errors.card_data.cannot_build_certificate_chain" : {
+      "comment" : "The following cases are not localized.",
+      "localizations" : {
+        "fi" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "tunnistus- ja salausvarmenteen varmenneketjua ei voi muodostaa"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "det går inte att skapa certifikatkedjan för verifierings- och krypteringscertifikatet"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "cannot build the Authentication and Encryption Certificate chain"
+          }
+        }
+      },
+      "extractionState" : "manual"
+    },
+    "errors.card_data.cannot_register_issuer_certificate" : {
+      "comment" : "Card-data failure detail inserted into “Cannot read the card data: %@.”; keep it a sentence fragment without a final period.",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "cannot register the public issuer certificate (%1$(status)d)"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "myöntäjän julkista varmennetta ei voi rekisteröidä (%1$(status)d)"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "det går inte att registrera det offentliga utfärdarcertifikatet (%1$(status)d)"
+          }
+        }
+      },
+      "extractionState" : "manual"
+    },
+    "errors.card_data.description" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cannot read the card data: %1$(detail)@."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kortin tietoja ei voi lukea: %1$(detail)@."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Det går inte att läsa kortets data: %1$(detail)@."
+          }
+        }
+      },
+      "extractionState" : "manual"
+    },
+    "errors.card_data.file_range_exceeds_size" : {
+      "comment" : "Card-data failure detail inserted into “Cannot read the card data: %@.”; keep it a sentence fragment without a final period.",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "file range exceeds file size"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "lukualue ylittää tiedoston koon"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "läsintervallet överskrider filstorleken"
+          }
+        }
+      },
+      "extractionState" : "manual"
+    },
+    "errors.card_data.incomplete_file_read" : {
+      "comment" : "Card-data failure detail inserted into “Cannot read the card data: %@.”; keep it a sentence fragment without a final period.",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "incomplete file read"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "tiedosto luettiin vain osittain"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "filen lästes endast delvis"
+          }
+        }
+      },
+      "extractionState" : "manual"
+    },
+    "errors.card_data.invalid_asn1_field" : {
+      "comment" : "Card-data failure detail inserted into “Cannot read the card data: %@.”; keep it a sentence fragment without a final period.",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "invalid ASN.1 field"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "virheellinen ASN.1-kenttä"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ogiltigt ASN.1-fält"
+          }
+        }
+      },
+      "extractionState" : "manual"
+    },
+    "errors.card_data.invalid_asn1_record" : {
+      "comment" : "Card-data failure detail inserted into “Cannot read the card data: %@.”; keep it a sentence fragment without a final period.",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "invalid ASN.1 record"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "virheellinen ASN.1-tietue"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ogiltig ASN.1-post"
+          }
+        }
+      },
+      "extractionState" : "manual"
+    },
+    "errors.card_data.invalid_authentication_certificate" : {
+      "comment" : "The error message when the authentication certificate is invalid.",
+      "localizations" : {
+        "fi" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "virheellinen tunnistus- ja salausvarmenne"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "ogiltigt verifierings- och krypteringscertifikat"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "invalid Authentication and Encryption Certificate"
+          }
+        }
+      },
+      "extractionState" : "manual"
+    },
+    "errors.card_data.invalid_digest_length" : {
+      "comment" : "Card-data failure detail inserted into “Cannot read the card data: %@.”; keep it a sentence fragment without a final period.",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "incorrect signature digest length"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "virheellinen allekirjoitettavan tiivisteen pituus"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "felaktig längd på hashvärdet som ska signeras"
+          }
+        }
+      },
+      "extractionState" : "manual"
+    },
+    "errors.card_data.invalid_file_path_or_range" : {
+      "comment" : "Card-data failure detail inserted into “Cannot read the card data: %@.”; keep it a sentence fragment without a final period.",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "invalid file path or range"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "virheellinen tiedostopolku tai lukualue"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ogiltig filsökväg eller ogiltigt läsintervall"
+          }
+        }
+      },
+      "extractionState" : "manual"
+    },
+    "errors.card_data.invalid_file_size" : {
+      "comment" : "Card-data failure detail inserted into “Cannot read the card data: %@.”; keep it a sentence fragment without a final period.",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "invalid file size"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "virheellinen tiedostokoko"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ogiltig filstorlek"
+          }
+        }
+      },
+      "extractionState" : "manual"
+    },
+    "errors.card_data.invalid_pin" : {
+      "comment" : "Card-data failure detail. The two numbers are the minimum and maximum permitted PIN lengths.",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "PIN must contain %1$(minimumLength)lld–%2$(maximumLength)lld digits"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Tunnusluvussa on oltava %1$(minimumLength)lld–%2$(maximumLength)lld numeroa"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "PIN-koden måste innehålla %1$(minimumLength)lld–%2$(maximumLength)lld siffror"
+          }
+        }
+      },
+      "extractionState" : "manual"
+    },
+    "errors.card_data.invalid_pin_metadata" : {
+      "comment" : "Card-data failure detail inserted into “Cannot read the card data: %@.”; keep it a sentence fragment without a final period.",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "invalid PIN metadata or length limits"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "virheelliset tunnusluvun metatiedot tai pituusrajat"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ogiltiga PIN-metadata eller längdgränser"
+          }
+        }
+      },
+      "extractionState" : "manual"
+    },
+    "errors.card_data.invalid_private_key_metadata" : {
+      "comment" : "Card-data failure detail inserted into “Cannot read the card data: %@.”; keep it a sentence fragment without a final period.",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "invalid private-key metadata"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "virheelliset yksityisen avaimen metatiedot"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ogiltiga metadata för privat nyckel"
+          }
+        }
+      },
+      "extractionState" : "manual"
+    },
+    "errors.card_data.invalid_record_length" : {
+      "comment" : "Card-data failure detail inserted into “Cannot read the card data: %@.”; keep it a sentence fragment without a final period.",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "invalid length"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "virheellinen pituus"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ogiltig längd"
+          }
+        }
+      },
+      "extractionState" : "manual"
+    },
+    "errors.card_data.invalid_signature_length" : {
+      "comment" : "Card-data failure detail inserted into “Cannot read the card data: %@.”; keep it a sentence fragment without a final period.",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "invalid ECDSA signature length"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "virheellinen ECDSA-allekirjoituksen pituus"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ogiltig längd på ECDSA-signaturen"
+          }
+        }
+      },
+      "extractionState" : "manual"
+    },
+    "errors.card_data.invalid_x509_certificate" : {
+      "comment" : "Card-data failure detail inserted into “Cannot read the card data: %@.”; keep it a sentence fragment without a final period.",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "invalid X.509 certificate"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "virheellinen X.509-varmenne"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ogiltigt X.509-certifikat"
+          }
+        }
+      },
+      "extractionState" : "manual"
+    },
+    "errors.card_data.missing_asn1_field" : {
+      "comment" : "Card-data failure detail inserted into “Cannot read the card data: %@.”; keep it a sentence fragment without a final period.",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "missing ASN.1 field"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ASN.1-kenttä puuttuu"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ASN.1-fält saknas"
+          }
+        }
+      },
+      "extractionState" : "manual"
+    },
+    "errors.card_data.missing_file_size" : {
+      "comment" : "Card-data failure detail inserted into “Cannot read the card data: %@.”; keep it a sentence fragment without a final period.",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "missing file size in SELECT response"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "tiedoston koko puuttuu SELECT-vastauksesta"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "filstorleken saknas i SELECT-svaret"
+          }
+        }
+      },
+      "extractionState" : "manual"
+    },
+    "errors.card_data.missing_issuer_certificate" : {
+      "comment" : "The text for the \"missing issuer certificate\" case in `CardDataError`.",
+      "localizations" : {
+        "fi" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "tunnistus- ja salausvarmenteen myöntäjän varmenne puuttuu kortilta"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "utfärdarcertifikatet för verifierings- och krypteringscertifikatet saknas på kortet"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "issuer certificate for the Authentication and Encryption Certificate is missing from the card"
+          }
+        }
+      },
+      "extractionState" : "manual"
+    },
+    "errors.card_data.missing_serial_number" : {
+      "comment" : "Card-data failure detail inserted into “Cannot read the card data: %@.”; keep it a sentence fragment without a final period.",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "missing card serial number"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "kortin sarjanumero puuttuu"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "kortets serienummer saknas"
+          }
+        }
+      },
+      "extractionState" : "manual"
+    },
+    "errors.card_data.missing_token_keychain_contents" : {
+      "comment" : "Card-data failure detail inserted into “Cannot read the card data: %@.”; keep it a sentence fragment without a final period.",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "missing token keychain contents"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "tunnisteen avainnipun sisältö puuttuu"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "tokenens nyckelringsinnehåll saknas"
+          }
+        }
+      },
+      "extractionState" : "manual"
+    },
+    "errors.card_data.no_card" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Insert an ID card into the reader."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aseta henkilökortti lukijaan."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sätt in ett identitetskort i läsaren."
+          }
+        }
+      },
+      "extractionState" : "manual"
+    },
+    "errors.card_data.pin_not_activated" : {
+      "comment" : "The error message when the PIN is not activated.",
+      "localizations" : {
+        "fi" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "aktivoi kansalaisvarmenne ennen tunnistautumista"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "aktivera medborgarcertifikatet före identifiering"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "activate the Citizen Certificate before using authentication"
+          }
+        }
+      },
+      "extractionState" : "manual"
+    },
+    "errors.card_data.record_too_large" : {
+      "comment" : "Card-data failure detail inserted into “Cannot read the card data: %@.”; keep it a sentence fragment without a final period.",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "record size exceeds the limit"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "tietueen koko ylittää rajan"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "poststorleken överskrider gränsen"
+          }
+        }
+      },
+      "extractionState" : "manual"
+    },
+    "errors.card_data.truncated_record" : {
+      "comment" : "Card-data failure detail inserted into “Cannot read the card data: %@.”; keep it a sentence fragment without a final period.",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "truncated record"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "tietue on katkennut"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "posten är ofullständig"
+          }
+        }
+      },
+      "extractionState" : "manual"
+    },
+    "errors.card_data.unsupported_asn1_structure" : {
+      "comment" : "Card-data failure detail inserted into “Cannot read the card data: %@.”; keep it a sentence fragment without a final period.",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "unsupported tag, length or nesting"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "tunnistetta, pituutta tai sisäkkäisyyttä ei tueta"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "taggen, längden eller nästlingen stöds inte"
+          }
+        }
+      },
+      "extractionState" : "manual"
+    },
+    "errors.card_data.unsupported_authentication_certificate" : {
+      "comment" : "The error message when the authentication certificate is not supported.",
+      "localizations" : {
+        "fi" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "tunnistus- ja salausvarmenne ei vastaa tuettua EC-profiilia"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "verifierings- och krypteringscertifikatet motsvarar inte den EC-profil som stöds"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Authentication and Encryption Certificate does not match the supported EC profile"
+          }
+        }
+      },
+      "extractionState" : "manual"
+    },
+    "errors.card_data.unsupported_authentication_key_profile" : {
+      "comment" : "Card-data failure detail inserted into “Cannot read the card data: %@.”; keep it a sentence fragment without a final period.",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "unsupported or ambiguous authentication-key profile"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "tunnistusavaimen profiilia ei tueta tai se on moniselitteinen"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "autentiseringsnyckelns profil stöds inte eller är tvetydig"
+          }
+        }
+      },
+      "extractionState" : "manual"
+    },
+    "errors.card_data.unsupported_directory_entry" : {
+      "comment" : "Card-data failure detail inserted into “Cannot read the card data: %@.”; keep it a sentence fragment without a final period.",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "unsupported object-directory entry"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "objektihakemiston merkintää ei tueta"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "objektkatalogposten stöds inte"
+          }
+        }
+      },
+      "extractionState" : "manual"
+    },
+    "errors.card_data.unsupported_signing_algorithms" : {
+      "comment" : "Card-data failure detail inserted into “Cannot read the card data: %@.”; keep it a sentence fragment without a final period.",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "no supported EC signing algorithm; found %1$(references)@"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "tuettua EC-allekirjoitusalgoritmia ei ole; löydetyt algoritmit: %1$(references)@"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ingen EC-signaturalgoritm som stöds; hittade algoritmer: %1$(references)@"
+          }
+        }
+      },
+      "extractionState" : "manual"
+    },
+    "errors.card_data.zero_signature_component" : {
+      "comment" : "Card-data failure detail inserted into “Cannot read the card data: %@.”; keep it a sentence fragment without a final period.",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "zero ECDSA signature component"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ECDSA-allekirjoituksen osan arvo on nolla"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "en ECDSA-signaturkomponent är noll"
+          }
+        }
+      },
+      "extractionState" : "manual"
+    },
+    "errors.card_status.authentication_required" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The card requires authentication for this operation."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kortti edellyttää tunnistautumista tätä toimintoa varten."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kortet kräver autentisering för den här åtgärden."
+          }
+        }
+      },
+      "extractionState" : "manual"
+    },
+    "errors.card_status.file_not_found" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The selected application or file is not present on this card."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Valittua sovellusta tai tiedostoa ei ole tällä kortilla."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Den valda applikationen eller filen finns inte på kortet."
+          }
+        }
+      },
+      "extractionState" : "manual"
+    },
+    "errors.card_status.pin_blocked" : {
+      "comment" : "Description of a card status when the PIN is locked.",
+      "localizations" : {
+        "fi" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Kortin tunnusluku on lukkiutunut."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Kortets PIN-kod är låst."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The card's PIN is locked."
+          }
+        }
+      },
+      "extractionState" : "manual"
+    },
+    "errors.card_status.pin_not_initialized" : {
+      "comment" : "Description of a card status when the PIN is not set or is unavailable.",
+      "localizations" : {
+        "fi" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Tunnuslukua ei ole asetettu tai se ei ole käytettävissä."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "PIN-koden är inte inställd eller är inte tillgänglig."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The PIN is not set or is unavailable."
+          }
+        }
+      },
+      "extractionState" : "manual"
+    },
+    "errors.card_status.success" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The card operation succeeded."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Korttitoiminto onnistui."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kortåtgärden lyckades."
+          }
+        }
+      },
+      "extractionState" : "manual"
+    },
+    "errors.card_status.unknown" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The card returned status %1$(status)@."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kortti palautti tilakoodin %1$(status)@."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kortet returnerade statuskoden %1$(status)@."
+          }
+        }
+      },
+      "extractionState" : "manual"
+    },
+    "errors.card_status.verification_failed" : {
+      "comment" : "A rejected PIN verification. The count is the number of attempts still available before the card blocks the PIN.",
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "PIN was not verified. %1$(attempts)lld attempt remains."
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "PIN was not verified. %1$(attempts)lld attempts remain."
+                }
+              }
+            }
+          }
+        },
+        "fi" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "machine_translated",
+                  "value" : "Tunnuslukua ei vahvistettu. Jäljellä on %1$(attempts)lld yritys."
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "machine_translated",
+                  "value" : "Tunnuslukua ei vahvistettu. Jäljellä on %1$(attempts)lld yritystä."
+                }
+              },
+              "zero" : {
+                "stringUnit" : {
+                  "state" : "machine_translated",
+                  "value" : "Tunnuslukua ei vahvistettu. Jäljellä on %1$(attempts)lld yritystä."
+                }
+              }
+            }
+          }
+        },
+        "sv" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "PIN-koden verifierades inte. %1$(attempts)lld försök återstår."
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "PIN-koden verifierades inte. %1$(attempts)lld försök återstår."
+                }
+              }
+            }
+          }
+        }
+      },
+      "extractionState" : "manual"
+    },
+    "errors.keychain.description" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Keychain: %1$(detail)@"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Avainnippu: %1$(detail)@"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nyckelring: %1$(detail)@"
+          }
+        }
+      },
+      "extractionState" : "manual"
+    },
+    "errors.pin_provider.authentication_not_enabled_for_card" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Keychain authentication is not enabled for this card. Save PIN1 in Settings or use the macOS PIN prompt."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tunnistautuminen avainnipun avulla ei ole käytössä tälle kortille. Tallenna PIN1 asetuksissa tai käytä macOS:n PIN-kyselyä."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Identifiering med nyckelringen är inte aktiverad för det här kortet. Spara PIN1 i Inställningar eller använd PIN-dialogrutan i macOS."
+          }
+        }
+      },
+      "extractionState" : "manual"
+    },
+    "errors.pin_provider.invalid_card_id" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Read the ID card before saving PIN1."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Lue henkilökortti ennen PIN1-tunnusluvun tallentamista."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Läs identitetskortet innan du sparar PIN1."
+          }
+        }
+      },
+      "extractionState" : "manual"
+    },
+    "errors.pin_provider.invalid_pin" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "PIN1 must contain 4–12 ASCII digits."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "PIN1-tunnusluvussa on oltava 4–12 numeroa (0–9)."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "PIN1 måste innehålla 4–12 siffror (0–9)."
+          }
+        }
+      },
+      "extractionState" : "manual"
+    },
+    "errors.pin_provider.invalid_stored_pin" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The saved PIN item is malformed."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Tallennetun tunnusluvun tiedot ovat virheellisiä."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Den sparade PIN-postens data är felaktiga."
+          }
+        }
+      },
+      "extractionState" : "manual"
+    },
+    "errors.pin_provider.invalid_stored_settings" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The saved PIN item has no valid authentication settings."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Tallennetulla tunnusluvulla ei ole kelvollisia tunnistautumisasetuksia."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Den sparade PIN-posten saknar giltiga identifieringsinställningar."
+          }
+        }
+      },
+      "extractionState" : "manual"
+    },
+    "errors.pin_provider.missing_access_group" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Shared Keychain access is not configured. Sign the app and extension with the same development team."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jaettua avainnippua ei ole määritetty. Allekirjoita appi ja laajennus samalla kehittäjätiimillä."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Åtkomst till den delade nyckelringen är inte konfigurerad. Signera appen och tillägget med samma utvecklarteam."
+          }
+        }
+      },
+      "extractionState" : "manual"
+    },
+    "errors.pin_provider.no_saved_pin" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No PIN1 is saved. Save it in Settings or use the macOS PIN prompt."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "PIN1-tunnuslukua ei ole tallennettu. Tallenna se asetuksissa tai käytä macOS:n PIN-kyselyä."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ingen PIN1 är sparad. Spara den i Inställningar eller använd PIN-dialogrutan i macOS."
+          }
+        }
+      },
+      "extractionState" : "manual"
+    },
+    "errors.pin_provider.saved_pin_required" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Save PIN1 in Keychain before enabling Keychain authentication."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tallenna PIN1 avainnippuun ennen kuin otat tunnistautumisen avainnipun avulla käyttöön."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spara PIN1 i nyckelringen innan du aktiverar identifiering med nyckelringen."
+          }
+        }
+      },
+      "extractionState" : "manual"
+    },
+    "errors.pin_provider.settings_changed" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The saved PIN changed while saving settings. Please try again."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Tallennettu tunnusluku muuttui asetusten tallennuksen aikana. Yritä uudelleen."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Den sparade PIN-koden ändrades medan inställningarna sparades. Försök igen."
+          }
+        }
+      },
+      "extractionState" : "manual"
+    },
+    "errors.pin_provider.single_card_required" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Insert a single ID card to save its PIN1."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Aseta lukijaan vain yksi henkilökortti, jotta voit tallentaa sen PIN1-tunnusluvun."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sätt in endast ett identitetskort för att spara PIN1."
+          }
+        }
+      },
+      "extractionState" : "manual"
+    },
+    "errors.reader.access_unavailable" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Smart-card access is unavailable."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Älykorttien käyttö ei ole mahdollista."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Åtkomst till smartkort är inte tillgänglig."
+          }
+        }
+      },
+      "extractionState" : "manual"
+    },
+    "errors.system.status" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Error %1$(status)d"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Virhe %1$(status)d"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fel %1$(status)d"
+          }
+        }
+      },
+      "extractionState" : "manual"
+    },
+    "keychain.saved_pin.label" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "AgentEID PIN1"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Agenttitunnistus PIN1"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Agentidentifiering PIN1"
+          }
+        }
+      },
+      "extractionState" : "manual"
+    },
+    "menu.actions.quit.title" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quit"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lopeta"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Avsluta"
+          }
+        }
+      },
+      "extractionState" : "manual"
+    },
+    "menu.actions.settings.title" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Settings"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Asetukset"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Inställningar"
+          }
+        }
+      },
+      "extractionState" : "manual"
+    },
+    "menu.card.prepare.retry.title" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Try again"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yritä uudelleen"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Försök igen"
+          }
+        }
+      },
+      "extractionState" : "manual"
+    },
+    "menu.card.status.absent" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No card"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ei korttia"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Inget kort"
+          }
+        }
+      },
+      "extractionState" : "manual"
+    },
+    "menu.card.status.detecting" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Detecting card"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tunnistetaan korttia"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Identifierar kortet"
+          }
+        }
+      },
+      "extractionState" : "manual"
+    },
+    "menu.card.status.inserted" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Card inserted"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kortti on lukijassa"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kortet är insatt"
+          }
+        }
+      },
+      "extractionState" : "manual"
+    },
+    "menu.card.status.not_responding" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Card not responding"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kortti ei vastaa"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kortet svarar inte"
+          }
+        }
+      },
+      "extractionState" : "manual"
+    },
+    "menu.card.status.preparation_failed" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Couldn’t prepare card"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kortin valmistelu epäonnistui"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Det gick inte att förbereda kortet"
+          }
+        }
+      },
+      "extractionState" : "manual"
+    },
+    "menu.card.status.preparing" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Preparing card…"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Valmistellaan korttia…"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Förbereder kortet…"
+          }
+        }
+      },
+      "extractionState" : "manual"
+    },
+    "menu.card.status.ready" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Card ready"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kortti on valmis"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kortet är klart"
+          }
+        }
+      },
+      "extractionState" : "manual"
+    },
+    "menu.reader.status.disconnected" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reader disconnected"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kortinlukija on irrotettu"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kortläsaren är frånkopplad"
+          }
+        }
+      },
+      "extractionState" : "manual"
+    },
+    "menu.reader.status.unavailable" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reader unavailable"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kortinlukija ei ole käytettävissä"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kortläsaren är inte tillgänglig"
+          }
+        }
+      },
+      "extractionState" : "manual"
+    },
+    "menu.readers.connect.title" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Connect a card reader"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Liitä kortinlukija"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Anslut en kortläsare"
+          }
+        }
+      },
+      "extractionState" : "manual"
+    },
+    "settings.authentication.load.retry.title" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Retry loading settings"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lataa asetukset uudelleen"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Läs in inställningarna igen"
+          }
+        }
+      },
+      "extractionState" : "manual"
+    },
+    "settings.authentication.method.label" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Authentication method"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tunnistautumistapa"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Identifieringsmetod"
+          }
+        }
+      },
+      "extractionState" : "manual"
+    },
+    "settings.authentication.methods.native.title" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ask for PIN1"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Kysy PIN1-tunnuslukua"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fråga efter PIN1"
+          }
+        }
+      },
+      "extractionState" : "manual"
+    },
+    "settings.authentication.methods.saved_pin.title" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Use saved PIN1"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Käytä tallennettua PIN1-tunnuslukua"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Använd sparad PIN1"
+          }
+        }
+      },
+      "extractionState" : "manual"
+    },
+    "settings.authentication.saved_pin.change.title" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Change saved PIN1…"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vaihda tallennettu PIN1…"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ändra sparad PIN1…"
+          }
+        }
+      },
+      "extractionState" : "manual"
+    },
+    "settings.authentication.saved_pin.forget.title" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Forget PIN1"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Poista PIN1"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ta bort PIN1"
+          }
+        }
+      },
+      "extractionState" : "manual"
+    },
+    "settings.authentication.update.progress" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Updating authentication settings…"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Päivitetään tunnistautumisasetuksia…"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uppdaterar autentiseringsinställningar…"
+          }
+        }
+      },
+      "extractionState" : "manual"
+    },
+    "settings.pin_setup.description" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Insert your card to verify and save PIN1. The saved PIN is used only for this card, on this Mac."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Aseta kortti lukijaan PIN1-tunnusluvun tarkistamista ja tallentamista varten. Tallennettua tunnuslukua käytetään vain tämän kortin kanssa tällä Macilla."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sätt in ditt kort för att kontrollera och spara PIN1. Den sparade PIN-koden används endast för detta kort på denna Mac."
+          }
+        }
+      },
+      "extractionState" : "manual"
+    },
+    "settings.pin_setup.input.hint" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "4–12 digits (0–9)."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "4–12 numeroa (0–9)."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "4–12 siffror (0–9)."
+          }
+        }
+      },
+      "extractionState" : "manual"
+    },
+    "settings.pin_setup.input.label" : {
+      "comment" : "The placeholder text for the PIN field",
+      "localizations" : {
+        "fi" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Perustunnusluku (PIN1)"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Baskod (PIN1)"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Basic PIN code (PIN1)"
+          }
+        }
+      },
+      "extractionState" : "manual"
+    },
+    "settings.pin_setup.save.progress" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verifying and saving PIN1…"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Tarkistetaan ja tallennetaan PIN1-tunnuslukua…"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verifierar och sparar PIN1…"
+          }
+        }
+      },
+      "extractionState" : "manual"
+    },
+    "settings.pin_setup.save.title" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Save and use PIN1"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tallenna PIN1 ja ota käyttöön"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spara och använd PIN1"
+          }
+        }
+      },
+      "extractionState" : "manual"
+    }
+  },
+  "version" : "1.3"
+}
